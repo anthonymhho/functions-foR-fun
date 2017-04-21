@@ -1,6 +1,5 @@
 #### Purpose ####
-# Checks a data frame for duplicates based on values of a specific column.
-# It will then remove subsequent rows with identical values.
+# Removes any subsequent rows with identical values on specific column.
 
 #### Function ####
 removeDuplicates = function(df, columnNameWithQuotes) {
