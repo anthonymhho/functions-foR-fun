@@ -12,7 +12,7 @@ nameVector = c(paste(letters[1:5]))
 firstVector = c(1, 2, 3, 4, 5)
 secondVector = c(0, 0, 0, 0, 5)
 
-df = data.frame(rbind(randomVector, anotherVector))
+df = data.frame(rbind(firstVector, secondVector))
 colnames(df) = nameVector
 
 removeDuplicates(df, "e")
